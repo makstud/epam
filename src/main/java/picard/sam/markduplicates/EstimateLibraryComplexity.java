@@ -86,7 +86,7 @@ import static java.lang.Math.pow;
 public class EstimateLibraryComplexity extends AbstractOpticalDuplicateFinderCommandLineProgram {
 
     private static final int MAX_THREADS_COUNT = 100;
-    private static final int PACK_QUEUE_SIZE = 10;
+    private static final int PACK_QUEUE_SIZE = 100;
     private static final int RECORDS_PACK_SIZE = 10000;
 
     static final String USAGE_SUMMARY = "Estimates the numbers of unique molecules in a sequencing library.  ";
